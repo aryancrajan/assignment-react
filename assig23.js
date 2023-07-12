@@ -11,5 +11,6 @@ for(let k=0;k<a.length;k++)
         j=(a[k].length-k-1);
         s2=s2+a[k][j];
     }
-console.log(s1);
-console.log(s2);
+console.log('First diagonal sum:', s1);
+console.log('Second diagonal sum:',s2);
+console.log(s2-s1);
