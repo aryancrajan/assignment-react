@@ -1,3 +1,4 @@
 let birthYear=1999;
-age=2023-birthYear;
+let currentYear=2023;
+age=currentYear-birthYear;
 console.log('Current age is:',age);
