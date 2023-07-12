@@ -1,7 +1,7 @@
 let str='malayalam';
 const len=str.length;
 var flag=0;
-for (let i = 0; i < len / 2; i++) 
+for (let i=0;i<len/2;i++) 
     {
     if (str[i] !== str[len-1-i]) 
         flag=1;
